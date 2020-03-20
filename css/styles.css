@@ -1,0 +1,14 @@
+.jumbotron {
+  margin:0;
+  padding: 30px;
+  background-image: linear-gradient(to right, #f50c0c, orange,yellow, green, blue, indigo, violet);
+  color: white;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-shadow: 50%;
+}
+
+.jumbotron h2, h1{
+  background-color: rgba(0, 0, 0, 0.1);
+  border-style: fade ;
+  padding: 5px;
+}
