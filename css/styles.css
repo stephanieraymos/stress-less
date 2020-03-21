@@ -6,6 +6,7 @@
   font-family: "Comic Sans MS", cursive, sans-serif;
   text-shadow: 50%;
   border-radius: 20px;
+  
 }
 
 .jumbotron h2, h1{
@@ -25,24 +26,17 @@
 
 body {
   background-color:orange;
-  display:flex;
-  flex-flow:row wrap;
-  justify-content:center;
-  margin:0;
-  height:85vh;
-  align-items:center;
-  align-content:center;
 }
 
 .thought {
-  display:flex;
   background-color:rgb(223, 243, 176);
   padding:20px;
-  border-radius:30px;
+  border-radius:50px;
   min-width:40px;
   max-width:220px;
   min-height:40px;
   margin:20px;
+  margin-top:90px;
   position:relative;
   align-items:center;
   justify-content:center;
@@ -91,11 +85,14 @@ body {
 }
 
 .navbar {
-  background-color: #901CAD;
+  background-color: rgb(233, 12, 141);
 }
 
 .navbar-dark {
-  background-color: #901CAD;
+  background-color: rgb(211, 159, 241);
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .carousel-caption {
@@ -105,3 +102,12 @@ body {
 .carousel {
   border: solid #5637DD;
 }
+
+li {
+  cursor: pointer;
+}
+
+.point {
+  cursor: pointer;
+}
+

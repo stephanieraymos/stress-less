@@ -14,20 +14,66 @@
 </head>
 
 <body>
+    <header>
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/orange-wave.png" height="30" width="30" /></a> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#calmNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+           <div class="collapse navbar-collapse" id="calmNavbar">
+               <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="journal.html"><i class="fa fa-info fa-lg"></i> Journal</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Activities</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contactus.html><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
+               </ul>
+               <span class="navbar-text ml-auto point">
+                <a role="button" data-toggle="modal" data-target="#loginModal">
+                <i class="fa fa-sign-in"></i> Login</a>
+                </span>
+           </div>
+        </div>
+    </nav>
+</header>
 
-    <header class="jumbotron jumbotron-fluid">
-        <div class= "container">
-            <div class= "row">
-                <div class= "col">
-                    <h1>Breathe</h1>
-                    <h2 class="text-sm-right">You're going to be okay</h2>
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Login </h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
-                <div class="col-md-4 col-xl-2">
-                    <a href="#quickHelp" role="button" class="btn btn-lg btn-dark" data-toggle="tooltip" data-placement="bottom" data-html="true" title="Activities to help lower your anxiety level quickly">Quick Help</a>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginEmail">Email address</label>
+                                    <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Enter email">
+                                </div>
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginPassword">Password</label>
+                                    <input type="password" class="form-control form-control-sm" id="loginPassword" placeholder="Password">
+                                </div>
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <label class="form-check-label"> Remember me
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </header>
+    </div>
     <div class="container thought">
         <div class="row">What's on your mind today?
             <div class="col"><a href="#journal" role="button" class="btn btn-md btn-info" data-toggle="tooltip" data-placement="bottom" data-html="true" title="Let out all your thoughts so you can start to relax.">Journal</a>
