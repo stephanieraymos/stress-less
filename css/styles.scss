@@ -1,0 +1,123 @@
+.btn {
+  padding: 4px;
+  margin-top: 40px;
+  border-radius: 20px;
+}
+
+body {
+  background-color:rgb(243, 200, 120);
+  margin-top:30px;
+}
+
+/*THOUGHT BUBBLE STYLES*/
+.thought {
+  background-color:rgb(223, 243, 176);
+  padding-top:90px;
+  padding-right:25px;
+  padding-left:25px;
+  border-radius:130px;
+  min-width:400px;
+  max-width:220px;
+  min-height:270px;
+  margin:28px;
+  margin-top:95px;
+  position:relative;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  font-size: 25px;
+}
+.thought:before,
+.thought:after {
+  content:"";
+  background-color:rgb(223, 243, 176);
+  border-radius:50%;
+  display:block;
+  position:absolute;
+  z-index:-1;
+}
+.thought:before {
+  width:150px;
+  height:150px;
+  top:0px;
+  left:0px;
+  box-shadow: 250px 140px 0 -12px rgb(223, 243, 176),
+              170px 155px 0 -12px rgb(223, 243, 176),
+              75px 155px 0 -12px rgb(223, 243, 176),
+              -10px 145px 0 -12px rgb(223, 243, 176),
+              -30px 70px 0 -12px rgb(223, 243, 176),
+              75px -35px 0 -12px rgb(223, 243, 176),
+              175px -35px 0 -12px rgb(223, 243, 176),
+              250px -10px 0 -12px rgb(223, 243, 176),
+              280px 35px 0 -12px rgb(223, 243, 176),
+              270px 100px 0 -12px rgb(223, 243, 176);
+}
+.thought:after {
+  bottom:-10px;
+  right:26px;
+  width:30px;
+  height:30px;
+  box-shadow: 20px 20px 0 -10px rgb(223, 243, 176),
+             -40px 15px 0 -2px rgb(223, 243, 176),
+             -15px 30px 0 -6px rgb(223, 243, 176),
+             10px 40px 0 -10px rgb(223, 243, 176);
+  
+}
+
+/*END OF THOUGHT BUBBLE STYLES*/
+
+.site-footer{
+  background-color: rgb(211, 159, 241);
+  padding: 20px 0px;
+  color: white;
+  opacity: 90%;
+
+}
+
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+.navbar {
+  background-color: rgb(233, 12, 141);
+  opacity: 90%;
+}
+
+.navbar-dark {
+  background-color: rgb(211, 159, 241);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 90%;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+  border: solid #5637DD;
+}
+
+li {
+  cursor: pointer;
+}
+
+.point {
+  cursor: pointer;
+}
+
+footer{position: absolute; bottom: 0; left: 0; right: 0;}
+
+.lobster {
+  font-family: "Lobster", cursive;
+}
+
+.butts {
+  background: red;
+}
+
