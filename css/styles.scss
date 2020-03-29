@@ -6,7 +6,7 @@
 
 body {
   background-color:rgb(243, 200, 120);
-  margin-top:30px;
+  margin-top:60px;
 }
 
 /*THOUGHT BUBBLE STYLES*/
@@ -111,7 +111,19 @@ li {
   cursor: pointer;
 }
 
-footer{position: absolute; bottom: 0; left: 0; right: 0;}
+footer{
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  height:10%;
+  width:100%;
+  padding-top: 2px;
+  bottom: 0;
+  clear: both;
+  background-color: black;
+  color: white;
+  float: left;
+  overflow: auto;
+}
 
 .lobster {
   font-family: "Lobster", cursive;
@@ -121,5 +133,9 @@ footer{position: absolute; bottom: 0; left: 0; right: 0;}
   background: red;
 }
 
-
+.gallery{
+  img{
+    padding: 10px;
+  }
+}
 
