@@ -4,8 +4,7 @@
   border-radius: 20px; }
 
 body {
-  background-color: #f3c878;
-  margin-top: 60px; }
+  background-color: #f3c878; }
 
 /*THOUGHT BUBBLE STYLES*/
 .thought {
@@ -108,3 +107,6 @@ footer {
 
 .dropDown {
   background: #f3c878; }
+
+.header-height {
+  margin-top: 60px; }
