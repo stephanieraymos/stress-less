@@ -85,11 +85,9 @@ li {
   cursor: pointer; }
 
 footer {
-  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 10%;
   width: 100%;
   padding-top: 2px;
   bottom: 0;
