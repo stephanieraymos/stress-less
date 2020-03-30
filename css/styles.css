@@ -98,13 +98,22 @@ footer {
   font-family: "Lobster", cursive; }
 
 .butts {
-  background: red; }
+  padding: 8px 8px 8px 32px;
+  font-family: Arial, Verdana;
+  background: #f0f0f0 url([url 64 data]);
+  background-position: 8px 8px;
+  background-repeat: no-repeat; }
 
 .gallery img {
   padding: 10px; }
 
 .dropDown {
   background: #f3c878; }
+
+.imgButt {
+  padding: 10px;
+  height: 100px;
+  width: 150px; }
 
 .header-height {
   margin-top: 60px; }

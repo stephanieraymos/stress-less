@@ -128,8 +128,12 @@ footer{
   font-family: "Lobster", cursive;
 }
 
-.butts {
-  background: red;
+.butts{
+  padding: 8px 8px 8px 32px;
+  font-family: Arial, Verdana;   
+  background: #f0f0f0 url([url or base 64 data]);
+  background-position: 8px 8px;
+  background-repeat: no-repeat;
 }
 
 .gallery{
@@ -142,6 +146,11 @@ footer{
   background:$color-orange;
 }
 
+.imgButt{
+  padding:10px;
+  height: 100px;
+  width: 150px;
+}
 
 .header-height{
   margin-top: 60px;
