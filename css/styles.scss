@@ -2,9 +2,14 @@ $color-orange: rgb(243, 200, 120);
 $color-salmon:rgb(211, 159, 241);
 $color-green: rgb(223, 243, 176);
 .btn {
-  padding: 4px;
-  margin-top: 40px;
-  border-radius: 20px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.thought{
+  .btn{
+    margin-top:40px;
+  }
 }
 
 body {
@@ -19,11 +24,9 @@ body {
   padding-right:25px;
   padding-left:25px;
   border-radius:130px;
-  min-width:400px;
-  max-width:220px;
-  min-height:270px;
+  width: 400px;
+  height: 270px;
   margin:28px;
-  margin-top:95px;
   position:relative;
   text-align:center;
   font-family:"Comic Sans MS", cursive, sans-serif;
@@ -119,7 +122,7 @@ footer{
 .butts{
   padding: 8px 8px 8px 32px;
   font-family: Arial, Verdana;   
-  background: #f0f0f0 url([url or base 64 data]);
+  background: #f0f0f0;
   background-position: 8px 8px;
   background-repeat: no-repeat;
 }
