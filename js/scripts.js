@@ -19,5 +19,21 @@ $(function() {
         $("#reserveModal").modal("hide");
     
       });
- 
+
+
     });
+//Quote of the day
+    var quotes = [
+    '"Smile, breathe, and go slowly." -Thich Nhat Hanh ', 
+    '"Inner peace begins the moment you choose not to allow another person or event to control your emotions."— Pema Chodron', 
+    '"Trust yourself. You’ve survived a lot, and you’ll survive whatever is coming."– Robert Tew', 
+    '"Nothing diminishes anxiety faster than action."— Walter Anderson', 
+    '"Life is ten percent what you experience and ninety percent how you respond to it."— Dorothy M. Neddermeyer',
+  '"You don’t have to control your thoughts. You just have to stop letting them control you."— Dan Millman',
+  '"Good humor is a tonic for mind and body. It is the best antidote for anxiety and depression. It is a business asset. It attracts and keeps friends. It lightens human burdens. It is the direct route to serenity and contentment."— Grenville Kleiser',
+'"Do not anticipate trouble, or worry about what may never happen. Keep in the sunlight."— Benjamin Franklin']
+
+    function randomQuotes() {
+        var i = Math.floor(Math.random() * quotes.length)
+        document.getElementById('quote').innerHTML = quotes[i]
+    }
