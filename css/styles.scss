@@ -1,6 +1,7 @@
 $color-orange: rgb(243, 200, 120);
-$color-salmon:rgb(211, 159, 241);
-$color-green: rgb(223, 243, 176);
+$color-salmon:rgb(241, 129, 208);
+$color-green: rgb(192, 231, 99);
+$color-yellow: rgb(247, 245, 168);
 .btn {
   padding: 5px;
   border-radius: 10px;
@@ -149,4 +150,12 @@ footer{
 
 .header-height{
   margin-top: 60px;
+}
+
+.cardBG{
+  background-color: $color-green;
+}
+
+.cardBG2{
+  background-color: $color-yellow;
 }

@@ -10,7 +10,7 @@ body {
 
 /*THOUGHT BUBBLE STYLES*/
 .thought {
-  background-color: #dff3b0;
+  background-color: #c0e763;
   padding-top: 90px;
   padding-right: 25px;
   padding-left: 25px;
@@ -26,7 +26,7 @@ body {
 .thought:before,
 .thought:after {
   content: "";
-  background-color: #dff3b0;
+  background-color: #c0e763;
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -37,18 +37,18 @@ body {
   height: 150px;
   top: 0px;
   left: 0px;
-  box-shadow: 250px 140px 0 -12px #dff3b0, 170px 155px 0 -12px #dff3b0, 75px 155px 0 -12px #dff3b0, -10px 145px 0 -12px #dff3b0, -30px 70px 0 -12px #dff3b0, 75px -35px 0 -12px #dff3b0, 175px -35px 0 -12px #dff3b0, 250px -10px 0 -12px #dff3b0, 280px 35px 0 -12px #dff3b0, 270px 100px 0 -12px #dff3b0; }
+  box-shadow: 250px 140px 0 -12px #c0e763, 170px 155px 0 -12px #c0e763, 75px 155px 0 -12px #c0e763, -10px 145px 0 -12px #c0e763, -30px 70px 0 -12px #c0e763, 75px -35px 0 -12px #c0e763, 175px -35px 0 -12px #c0e763, 250px -10px 0 -12px #c0e763, 280px 35px 0 -12px #c0e763, 270px 100px 0 -12px #c0e763; }
 
 .thought:after {
   bottom: -10px;
   right: 26px;
   width: 30px;
   height: 30px;
-  box-shadow: 20px 20px 0 -10px #dff3b0, -40px 15px 0 -2px #dff3b0, -15px 30px 0 -6px #dff3b0, 10px 40px 0 -10px #dff3b0; }
+  box-shadow: 20px 20px 0 -10px #c0e763, -40px 15px 0 -2px #c0e763, -15px 30px 0 -6px #c0e763, 10px 40px 0 -10px #c0e763; }
 
 /*END OF THOUGHT BUBBLE STYLES*/
 .site-footer {
-  background-color: #d39ff1;
+  background-color: #f181d0;
   padding: 20px 0px;
   color: white;
   opacity: 90%; }
@@ -59,7 +59,7 @@ body {
   min-height: 200px; }
 
 .navbar-dark {
-  background-color: #d39ff1;
+  background-color: #f181d0;
   position: fixed;
   top: 0;
   width: 100%;
@@ -98,7 +98,7 @@ footer {
   padding: 10px; }
 
 .dropDown {
-  background: #d39ff1; }
+  background: #f181d0; }
 
 .dropdown-item {
   color: white; }
@@ -110,3 +110,9 @@ footer {
 
 .header-height {
   margin-top: 60px; }
+
+.cardBG {
+  background-color: #c0e763; }
+
+.cardBG2 {
+  background-color: #f7f5a8; }
