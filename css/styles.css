@@ -58,22 +58,12 @@ body {
   border-bottom: 1px ridge;
   min-height: 200px; }
 
-.navbar {
-  background-color: #e90c8d;
-  opacity: 90%; }
-
 .navbar-dark {
   background-color: #d39ff1;
   position: fixed;
   top: 0;
   width: 100%;
   opacity: 90%; }
-
-.carousel-caption {
-  background-color: rgba(0, 0, 0, 0.5); }
-
-.carousel {
-  border: solid #5637DD; }
 
 li {
   cursor: pointer; }
@@ -108,7 +98,10 @@ footer {
   padding: 10px; }
 
 .dropDown {
-  background: #f3c878; }
+  background: #d39ff1; }
+
+.dropdown-item {
+  color: white; }
 
 .imgButt {
   padding: 10px;
