@@ -134,7 +134,7 @@ footer {
   margin: 10px 0px 10px 0px; }
 
 .active, .accordion:hover {
-  background-color: #c0e763; }
+  background-color: #f181d0; }
 
 .panel {
   padding: 9px 18px;
@@ -152,3 +152,9 @@ footer {
 .active:after {
   content: "\2796";
   /* Unicode character for "minus" sign (-) */ }
+
+.navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .activeNav > .nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.activeNav {
+  color: #fff; }

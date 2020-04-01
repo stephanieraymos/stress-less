@@ -179,7 +179,7 @@ footer{
 }
 
 .active, .accordion:hover {
-  background-color: $color-green;
+  background-color: $color-salmon;
 }
 
 .panel {
@@ -199,3 +199,11 @@ footer{
 .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
+
+.navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .activeNav  > .nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.activeNav  {
+  color: #fff;
+}
+
