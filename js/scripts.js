@@ -23,7 +23,7 @@ $(function() {
 
     });
 //Quote of the day
-    var quotes = [
+    let quotes = [
     '"Smile, breathe, and go slowly." -Thich Nhat Hanh ', 
     '"Inner peace begins the moment you choose not to allow another person or event to control your emotions."— Pema Chodron', 
     '"Trust yourself. You’ve survived a lot, and you’ll survive whatever is coming."– Robert Tew', 
@@ -34,6 +34,6 @@ $(function() {
 '"Do not anticipate trouble, or worry about what may never happen. Keep in the sunlight."— Benjamin Franklin']
 
     function randomQuotes() {
-        var i = Math.floor(Math.random() * quotes.length)
+        let i = Math.floor(Math.random() * quotes.length)
         document.getElementById('quote').innerHTML = quotes[i]
     }
