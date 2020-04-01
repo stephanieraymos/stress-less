@@ -119,3 +119,36 @@ footer {
 
 .musicImg {
   padding: 15px; }
+
+/*ACCORDIAN */
+.accordion {
+  background-color: #f7f5a8;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: 10px 0px 10px 0px; }
+
+.active, .accordion:hover {
+  background-color: #c0e763; }
+
+.panel {
+  padding: 9px 18px;
+  background-color: #f7f5a8;
+  display: none;
+  overflow: hidden; }
+
+.accordion:after {
+  content: '\02795';
+  /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  float: right;
+  margin-left: 5px; }
+
+.active:after {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */ }
